@@ -1251,20 +1251,20 @@ text-decoration:none;
 
 
    <div class="tabs-scroll">
-<button class="tab active" data-cat="all">🍽️ All Items</button>
-<button class="tab" data-cat="Dosa">🥞 Dosa</button>
-<button class="tab" data-cat="Special Dosa">🧀 Special Dosa</button>
-<button class="tab" data-cat="Idli / Uttapam">🍘 Idli / Uttapam</button>
-<button class="tab" data-cat="Snacks / Chaat">🍟 Snacks / Chaat</button>
-<button class="tab" data-cat="Pav Bhaji">🍛 Pav Bhaji</button>
-<button class="tab" data-cat="Extras">➕ Extras</button>
-<button class="tab" data-cat="Pulav">🍚 Pulav</button>
-<button class="tab" data-cat="Meals">🍱 Meals</button>
-<button class="tab" data-cat="Bread">🥪 Bread</button>
-<button class="tab" data-cat="Pizza">🍕 Pizza</button>
-<button class="tab" data-cat="Chinese">🍜 Chinese</button>
-<button class="tab" data-cat="Beverages">🥤 Beverages</button>
-            </div>  
+<button class="tab active" data-cat="all">🍽️ सर्व पदार्थ</button>
+<button class="tab" data-cat="Beverages">🥤 पेये / कोल्ड्रिंक्स</button>
+<button class="tab" data-cat="Snacks">🥟 स्नॅक्स</button>
+<button class="tab" data-cat="Paratha">🫓 पराठा</button>
+<button class="tab" data-cat="Egg Dishes">🥚 अंड्याचे पदार्थ</button>
+<button class="tab" data-cat="Roti / Bhakri">🫓 पोळी / भाकरी</button>
+<button class="tab" data-cat="Veg Main Course">🥗 व्हेज मेन कोर्स</button>
+<button class="tab" data-cat="Paneer Dishes">🧀 पनीर डिशेस</button>
+<button class="tab" data-cat="Rice & Biryani">🍚 राईस आणि बिर्याणी</button>
+<button class="tab" data-cat="Chicken Dishes">🍗 चिकन डिशेस</button>
+<button class="tab" data-cat="Mutton Dishes">🥩 मटण डिशेस</button>
+<button class="tab" data-cat="Thali">🍱 थाळी</button>
+<button class="tab" data-cat="Durvankur Special">🌟 दुर्वाकूर स्पेशल</button>
+   </div>  
                 </div>
             </div>
 
@@ -1409,8 +1409,77 @@ text-decoration:none;
         // Menu Data - FIXED VERSION
         const data = [
 
-
-
+{"id": 1, "cat": "Beverages", "name": "चहा | Tea", "price": "Rs. 15", "desc": "Tea.[cite: 3]", "tags": ["Veg", "Beverage", "Tea"], "img": "img/tea.jpg"},
+{"id": 2, "cat": "Beverages", "name": "कॉफी | Coffee", "price": "Rs. 25", "desc": "Coffee.[cite: 3]", "tags": ["Veg", "Beverage", "Coffee"], "img": "img/coffee.jpg"},
+{"id": 3, "cat": "Beverages", "name": "कोल्ड्रिंक | Cold Drink", "price": "Rs. ", "desc": "Cold Drink.[cite: 3]", "tags": ["Veg", "Beverage", "Cold Drink"], "img": "img/cold_drink.jpg"},
+{"id": 4, "cat": "Beverages", "name": "बिसलेरी वॉटर | Bisleri Water", "price": "Rs. ", "desc": "Bisleri Water.[cite: 3]", "tags": ["Veg", "Beverage", "Water"], "img": "img/bisleri_water.jpg"},
+{"id": 5, "cat": "Snacks", "name": "पोहे | Pohe", "price": "Rs. 40", "desc": "Pohe.[cite: 3]", "tags": ["Veg", "Snacks"], "img": "img/pohe.jpg"},
+{"id": 6, "cat": "Snacks", "name": "मिसळ पाव | Misal Pav", "price": "Rs. 90", "desc": "Misal Pav.[cite: 3]", "tags": ["Veg", "Snacks"], "img": "img/misal_pav.jpg"},
+{"id": 7, "cat": "Snacks", "name": "इडली सांभार | Idli Sambar", "price": "Rs. 50", "desc": "Idli Sambar.[cite: 3]", "tags": ["Veg", "Snacks", "South Indian"], "img": "img/idli_sambar.jpg"},
+{"id": 8, "cat": "Snacks", "name": "पूरी भाजी | Puri Bhaji", "price": "Rs. 75", "desc": "Puri Bhaji.[cite: 3]", "tags": ["Veg", "Snacks"], "img": "img/puri_bhaji.jpg"},
+{"id": 9, "cat": "Snacks", "name": "भजी | Bhaji", "price": "Rs. 75", "desc": "Bhaji.[cite: 3]", "tags": ["Veg", "Snacks"], "img": "img/bhaji.jpg"},
+{"id": 10, "cat": "Paratha", "name": "आलू पराठा | Aloo Paratha", "price": "Rs. 80", "desc": "Aloo Paratha.[cite: 3]", "tags": ["Veg", "Paratha", "Aloo"], "img": "img/aloo_paratha.jpg"},
+{"id": 11, "cat": "Paratha", "name": "चिझ पराठा | Cheese Paratha", "price": "Rs. 110", "desc": "Cheese Paratha.[cite: 3]", "tags": ["Veg", "Paratha", "Cheese"], "img": "img/cheese_paratha.jpg"},
+{"id": 12, "cat": "Paratha", "name": "पनीर पराठा | Paneer Paratha", "price": "Rs. 120", "desc": "Paneer Paratha.[cite: 3]", "tags": ["Veg", "Paratha", "Paneer"], "img": "img/paneer_paratha.jpg"},
+{"id": 13, "cat": "Paratha", "name": "पनीर चिझ पराठा | Paneer Cheese Paratha", "price": "Rs. 150", "desc": "Paneer Cheese Paratha.[cite: 3]", "tags": ["Veg", "Paratha", "Paneer", "Cheese"], "img": "img/paneer_cheese_paratha.jpg"},
+{"id": 14, "cat": "Egg Dishes", "name": "बॉइल्ड अंडा | Boiled Egg", "price": "Rs. 40", "desc": "Boiled Egg.[cite: 3]", "tags": ["Non-Veg", "Egg", "Snacks"], "img": "img/boiled_egg.jpg"},
+{"id": 15, "cat": "Egg Dishes", "name": "अंडा पाव (२) | Anda Pav (2)", "price": "Rs. 100", "desc": "Anda Pav (2 Pieces).[cite: 3]", "tags": ["Non-Veg", "Egg", "Snacks"], "img": "img/anda_pav.jpg"},
+{"id": 16, "cat": "Egg Dishes", "name": "ऑम्लेट पाव | Omelette Pav", "price": "Rs. 90", "desc": "Omelette Pav.[cite: 3]", "tags": ["Non-Veg", "Egg", "Snacks"], "img": "img/omelette_pav.jpg"},
+{"id": 17, "cat": "Roti / Bhakri", "name": "ज्वारी भाकरी | Jwari Bhakri", "price": "Rs. 25", "desc": "Jwari Bhakri.[cite: 3]", "tags": ["Veg", "Bread", "Bhakri"], "img": "img/jwari_bhakri.jpg"},
+{"id": 18, "cat": "Roti / Bhakri", "name": "बाजरी भाकरी | Bajari Bhakri", "price": "Rs. 25", "desc": "Bajari Bhakri.[cite: 3]", "tags": ["Veg", "Bread", "Bhakri"], "img": "img/bajari_bhakri.jpg"},
+{"id": 19, "cat": "Roti / Bhakri", "name": "तांदूळ भाकरी | Tandul Bhakri", "price": "Rs. 25", "desc": "Tandul Bhakri.[cite: 3]", "tags": ["Veg", "Bread", "Bhakri"], "img": "img/tandul_bhakri.jpg"},
+{"id": 20, "cat": "Roti / Bhakri", "name": "चपाती | Chapati", "price": "Rs. 20", "desc": "Chapati.[cite: 3]", "tags": ["Veg", "Bread", "Roti"], "img": "img/chapati.jpg"},
+{"id": 21, "cat": "Roti / Bhakri", "name": "लच्छा पराठा | Lachha Paratha", "price": "Rs. 35", "desc": "Lachha Paratha.[cite: 3]", "tags": ["Veg", "Bread", "Paratha"], "img": "img/lachha_paratha.jpg"},
+{"id": 22, "cat": "Veg Main Course", "name": "आलू मटार | Aloo Matar", "price": "Rs. 120", "desc": "Aloo Matar.[cite: 3]", "tags": ["Veg", "Main Course", "Aloo"], "img": "img/aloo_matar.jpg"},
+{"id": 23, "cat": "Veg Main Course", "name": "ग्रीन पीस मसाला | Green Peas Masala", "price": "Rs. 130", "desc": "Green Peas Masala.[cite: 3]", "tags": ["Veg", "Main Course", "Peas"], "img": "img/green_peas_masala.jpg"},
+{"id": 24, "cat": "Veg Main Course", "name": "छोले मसाला | Chole Masala", "price": "Rs. 130", "desc": "Chole Masala.[cite: 3]", "tags": ["Veg", "Main Course", "Chole"], "img": "img/chole_masala.jpg"},
+{"id": 25, "cat": "Veg Main Course", "name": "व्हेज कोल्हापूरी | Veg Kolhapuri", "price": "Rs. 220", "desc": "Veg Kolhapuri.[cite: 3]", "tags": ["Veg", "Main Course"], "img": "img/veg_kolhapuri.jpg"},
+{"id": 26, "cat": "Veg Main Course", "name": "व्हेज कढाई | Veg Kadai", "price": "Rs. 230", "desc": "Veg Kadai.[cite: 3]", "tags": ["Veg", "Main Course"], "img": "img/veg_kadai.jpg"},
+{"id": 27, "cat": "Veg Main Course", "name": "व्हेज मराठा | Veg Maratha", "price": "Rs. 250", "desc": "Veg Maratha.[cite: 3]", "tags": ["Veg", "Main Course"], "img": "img/veg_maratha.jpg"},
+{"id": 28, "cat": "Veg Main Course", "name": "व्हेज माखन वाला | Veg Makhanwala", "price": "Rs. 250", "desc": "Veg Makhanwala.[cite: 3]", "tags": ["Veg", "Main Course"], "img": "img/veg_makhanwala.jpg"},
+{"id": 29, "cat": "Veg Main Course", "name": "शेव भाजी | Shev Bhaji", "price": "Rs. 130", "desc": "Shev Bhaji.[cite: 3]", "tags": ["Veg", "Main Course", "Maharashtrian"], "img": "img/shev_bhaji.jpg"},
+{"id": 30, "cat": "Veg Main Course", "name": "भरली वांगी | Bharli Vangi", "price": "Rs. 120", "desc": "Bharli Vangi.[cite: 3]", "tags": ["Veg", "Main Course", "Maharashtrian"], "img": "img/bharli_vangi.jpg"},
+{"id": 31, "cat": "Veg Main Course", "name": "पिठलं | Pithla", "price": "Rs. 120", "desc": "Pithla.[cite: 3]", "tags": ["Veg", "Main Course", "Maharashtrian"], "img": "img/pithla.jpg"},
+{"id": 32, "cat": "Veg Main Course", "name": "डाळ | Dal", "price": "Rs. 130", "desc": "Dal.[cite: 3]", "tags": ["Veg", "Main Course", "Dal"], "img": "img/dal.jpg"},
+{"id": 33, "cat": "Paneer Dishes", "name": "पनीर मसाला | Paneer Masala", "price": "Rs. 240", "desc": "Paneer Masala.[cite: 3]", "tags": ["Veg", "Main Course", "Paneer"], "img": "img/paneer_masala.jpg"},
+{"id": 34, "cat": "Paneer Dishes", "name": "पनीर बटर मसाला | Paneer Butter Masala", "price": "Rs. 260", "desc": "Paneer Butter Masala.[cite: 3]", "tags": ["Veg", "Main Course", "Paneer"], "img": "img/paneer_butter_masala.jpg"},
+{"id": 35, "cat": "Paneer Dishes", "name": "पनीर टिक्का मसाला | Paneer Tikka Masala", "price": "Rs. 260", "desc": "Paneer Tikka Masala.[cite: 3]", "tags": ["Veg", "Main Course", "Paneer"], "img": "img/paneer_tikka_masala.jpg"},
+{"id": 36, "cat": "Paneer Dishes", "name": "पनीर कढाई | Paneer Kadai", "price": "Rs. 240", "desc": "Paneer Kadai.[cite: 3]", "tags": ["Veg", "Main Course", "Paneer"], "img": "img/paneer_kadai.jpg"},
+{"id": 37, "cat": "Paneer Dishes", "name": "पनीर भुर्जी | Paneer Bhurji", "price": "Rs. 450", "desc": "Paneer Bhurji.[cite: 3]", "tags": ["Veg", "Main Course", "Paneer"], "img": "img/paneer_bhurji.jpg"},
+{"id": 38, "cat": "Rice & Biryani", "name": "प्लेन राईस | Plain Rice", "price": "Rs. 150", "desc": "Plain Rice.[cite: 3]", "tags": ["Veg", "Rice"], "img": "img/plain_rice.jpg"},
+{"id": 39, "cat": "Rice & Biryani", "name": "जिरा राईस | Jeera Rice", "price": "Rs. ", "desc": "Jeera Rice.[cite: 3]", "tags": ["Veg", "Rice", "Jeera"], "img": "img/jeera_rice.jpg"},
+{"id": 40, "cat": "Rice & Biryani", "name": "व्हेज पुलाव | Veg Pulav", "price": "Rs. 150", "desc": "Veg Pulav.[cite: 3]", "tags": ["Veg", "Rice", "Pulav"], "img": "img/veg_pulav.jpg"},
+{"id": 41, "cat": "Rice & Biryani", "name": "व्हेज बिर्याणी | Veg Biryani", "price": "Rs. 200", "desc": "Veg Biryani.[cite: 3]", "tags": ["Veg", "Rice", "Biryani"], "img": "img/veg_biryani.jpg"},
+{"id": 42, "cat": "Chicken Dishes", "name": "चिकन मसाला | Chicken Masala", "price": "Rs. 270", "desc": "Chicken Masala.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Chicken"], "img": "img/chicken_masala.jpg"},
+{"id": 43, "cat": "Chicken Dishes", "name": "चिकन कोल्हापूरी | Chicken Kolhapuri", "price": "Rs. 270", "desc": "Chicken Kolhapuri.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Chicken"], "img": "img/chicken_kolhapuri.jpg"},
+{"id": 44, "cat": "Chicken Dishes", "name": "चिकन फ्राय | Chicken Fry", "price": "Rs. 280", "desc": "Chicken Fry.[cite: 3]", "tags": ["Non-Veg", "Starter", "Chicken"], "img": "img/chicken_fry.jpg"},
+{"id": 45, "cat": "Chicken Dishes", "name": "चिकन खर्डा | Chicken Kharda", "price": "Rs. 280", "desc": "Chicken Kharda.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Chicken"], "img": "img/chicken_kharda.jpg"},
+{"id": 46, "cat": "Chicken Dishes", "name": "चिकन मसाला हंडी (हाफ) | Chicken Masala Handi (Half)", "price": "Rs. 350", "desc": "Chicken Masala Handi Half.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Chicken", "Handi"], "img": "img/chicken_masala_handi_half.jpg"},
+{"id": 47, "cat": "Chicken Dishes", "name": "चिकन मसाला हंडी (फुल) | Chicken Masala Handi (Full)", "price": "Rs. 650", "desc": "Chicken Masala Handi Full.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Chicken", "Handi"], "img": "img/chicken_masala_handi_full.jpg"},
+{"id": 48, "cat": "Chicken Dishes", "name": "चिकन कोल्हापूरी हंडी (हाफ) | Chicken Kolhapuri Handi (Half)", "price": "Rs. 350", "desc": "Chicken Kolhapuri Handi Half.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Chicken", "Handi"], "img": "img/chicken_kolhapuri_handi_half.jpg"},
+{"id": 49, "cat": "Chicken Dishes", "name": "चिकन कोल्हापूरी हंडी (फुल) | Chicken Kolhapuri Handi (Full)", "price": "Rs. 650", "desc": "Chicken Kolhapuri Handi Full.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Chicken", "Handi"], "img": "img/chicken_kolhapuri_handi_full.jpg"},
+{"id": 50, "cat": "Chicken Dishes", "name": "चिकन मालवणी हंडी (हाफ) | Chicken Malvani Handi (Half)", "price": "Rs. 375", "desc": "Chicken Malvani Handi Half.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Chicken", "Handi"], "img": "img/chicken_malvani_handi_half.jpg"},
+{"id": 51, "cat": "Chicken Dishes", "name": "चिकन मालवणी हंडी (फुल) | Chicken Malvani Handi (Full)", "price": "Rs. 700", "desc": "Chicken Malvani Handi Full.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Chicken", "Handi"], "img": "img/chicken_malvani_handi_full.jpg"},
+{"id": 52, "cat": "Mutton Dishes", "name": "मटण मसाला | Mutton Masala", "price": "Rs. 400", "desc": "Mutton Masala.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Mutton"], "img": "img/mutton_masala.jpg"},
+{"id": 53, "cat": "Mutton Dishes", "name": "मटण कोल्हापूरी | Mutton Kolhapuri", "price": "Rs. 400", "desc": "Mutton Kolhapuri.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Mutton"], "img": "img/mutton_kolhapuri.jpg"},
+{"id": 54, "cat": "Mutton Dishes", "name": "मटण फ्राय | Mutton Fry", "price": "Rs. 430", "desc": "Mutton Fry.[cite: 3]", "tags": ["Non-Veg", "Starter", "Mutton"], "img": "img/mutton_fry.jpg"},
+{"id": 55, "cat": "Mutton Dishes", "name": "मटण खर्डा | Mutton Kharda", "price": "Rs. 430", "desc": "Mutton Kharda.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Mutton"], "img": "img/mutton_kharda.jpg"},
+{"id": 56, "cat": "Mutton Dishes", "name": "मटण मसाला हंडी (हाफ) | Mutton Masala Handi (Half)", "price": "Rs. 475", "desc": "Mutton Masala Handi Half.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Mutton", "Handi"], "img": "img/mutton_masala_handi_half.jpg"},
+{"id": 57, "cat": "Mutton Dishes", "name": "मटण मसाला हंडी (फुल) | Mutton Masala Handi (Full)", "price": "Rs. 850", "desc": "Mutton Masala Handi Full.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Mutton", "Handi"], "img": "img/mutton_masala_handi_full.jpg"},
+{"id": 58, "cat": "Mutton Dishes", "name": "मटण कोल्हापूरी हंडी (हाफ) | Mutton Kolhapuri Handi (Half)", "price": "Rs. 475", "desc": "Mutton Kolhapuri Handi Half.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Mutton", "Handi"], "img": "img/mutton_kolhapuri_handi_half.jpg"},
+{"id": 59, "cat": "Mutton Dishes", "name": "मटण कोल्हापूरी हंडी (फुल) | Mutton Kolhapuri Handi (Full)", "price": "Rs. 850", "desc": "Mutton Kolhapuri Handi Full.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Mutton", "Handi"], "img": "img/mutton_kolhapuri_handi_full.jpg"},
+{"id": 60, "cat": "Mutton Dishes", "name": "मटण मालवणी हंडी (हाफ) | Mutton Malvani Handi (Half)", "price": "Rs. 500", "desc": "Mutton Malvani Handi Half.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Mutton", "Handi"], "img": "img/mutton_malvani_handi_half.jpg"},
+{"id": 61, "cat": "Mutton Dishes", "name": "मटण मालवणी हंडी (फुल) | Mutton Malvani Handi (Full)", "price": "Rs. 900", "desc": "Mutton Malvani Handi Full.[cite: 3]", "tags": ["Non-Veg", "Main Course", "Mutton", "Handi"], "img": "img/mutton_malvani_handi_full.jpg"},
+{"id": 62, "cat": "Thali", "name": "स्पेशल चिकन थाळी | Special Chicken Thali", "price": "Rs. 380", "desc": "चिकन मसाला, चिकन फ्राय, चिकन खिमा, अंडाकरी, चपाती-२ किंवा २ भाकरी, इंद्रायणी राईस, दहीकांदा.[cite: 3]", "tags": ["Non-Veg", "Thali", "Chicken", "Special"], "img": "img/special_chicken_thali.jpg"},
+{"id": 63, "cat": "Thali", "name": "चिकन थाळी | Chicken Thali", "price": "Rs. 320", "desc": "चिकन मसाला, अंडा करी, चपाती-२ किंवा २ भाकरी, इंद्रायणी राईस, दहीकांदा.[cite: 3]", "tags": ["Non-Veg", "Thali", "Chicken"], "img": "img/chicken_thali.jpg"},
+{"id": 64, "cat": "Thali", "name": "स्पेशल मटण थाळी | Special Mutton Thali", "price": "Rs. ", "desc": "मटण मसाला, मटण फ्राय, मटण खिमा मसाला, अंडाकरी, चपाती-२ किंवा २ भाकरी, इंद्रायणी राईस, दहीकांदा.[cite: 3]", "tags": ["Non-Veg", "Thali", "Mutton", "Special"], "img": "img/special_mutton_thali.jpg"},
+{"id": 65, "cat": "Thali", "name": "अंडा थाळी | Anda Thali", "price": "Rs. 150", "desc": "Anda Thali.[cite: 3]", "tags": ["Non-Veg", "Thali", "Egg"], "img": "img/anda_thali.jpg"},
+{"id": 66, "cat": "Thali", "name": "व्हेज थाळी | Veg Thali", "price": "Rs. 150", "desc": "२ भाजी, डाळ, राईस, पापड, लोणचं, स्वीट, २ चपाती.[cite: 3]", "tags": ["Veg", "Thali"], "img": "img/veg_thali.jpg"},
+{"id": 67, "cat": "Durvankur Special", "name": "मटण बिर्याणी | Mutton Biryani", "price": "Rs. ", "desc": "Durvankur Special Mutton Biryani.[cite: 3]", "tags": ["Non-Veg", "Biryani", "Mutton", "Special"], "img": "img/mutton_biryani.jpg"},
+{"id": 68, "cat": "Durvankur Special", "name": "स्पेशल चिकन बिर्याणी | Special Chicken Biryani", "price": "Rs. ", "desc": "Durvankur Special Chicken Biryani.[cite: 3]", "tags": ["Non-Veg", "Biryani", "Chicken", "Special"], "img": "img/special_chicken_biryani.jpg"},
+{"id": 69, "cat": "Durvankur Special", "name": "चिकन बिर्याणी | Chicken Biryani", "price": "Rs. ", "desc": "Chicken Biryani.[cite: 3]", "tags": ["Non-Veg", "Biryani", "Chicken"], "img": "img/chicken_biryani.jpg"},
+{"id": 70, "cat": "Durvankur Special", "name": "कोंबडी वडे | Kombdi Vade", "price": "Rs. ", "desc": "Kombdi Vade.[cite: 3]", "tags": ["Non-Veg", "Chicken", "Special"], "img": "img/kombdi_vade.jpg"},
+{"id": 71, "cat": "Durvankur Special", "name": "मटण वडे | Mutton Vade", "price": "Rs. ", "desc": "Mutton Vade.[cite: 3]", "tags": ["Non-Veg", "Mutton", "Special"], "img": "img/mutton_vade.jpg"},
 
 
           
